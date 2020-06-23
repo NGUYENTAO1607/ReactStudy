@@ -1,0 +1,21 @@
+body{
+    font:14 "Century Gothic", futuna , san-serif;
+    margin : 20px;
+}
+ol,ul{
+    padding-left:30px;
+}
+.board-row:after{
+    clear: both;
+    content : "";
+    display:table
+}
+.status{
+    margin-bottom:10px;
+}
+.square{
+    background: #fff;
+    border:1px solid #999;
+    float:left;
+    font-size :24
+}
